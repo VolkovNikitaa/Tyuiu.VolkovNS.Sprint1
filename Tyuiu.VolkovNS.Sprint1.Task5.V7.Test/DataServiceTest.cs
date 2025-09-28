@@ -11,7 +11,7 @@ namespace Tyuiu.VolkovNS.Sprint1.Task5.V7.Test
             DataService ds = new DataService();
             double f=96;
             var res = ds.AngleToHoursMinutes(f);
-            Assert.AreEqual(6, res);
+            Assert.AreEqual(3, res);
         }
     }
 }
