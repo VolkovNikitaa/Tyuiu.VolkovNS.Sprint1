@@ -27,6 +27,6 @@ internal class Program
         Console.WriteLine("***************************************************************************");
         Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
         Console.WriteLine("***************************************************************************");
-        Console.WriteLine(ds.CheckPalindrome(value));
+        Console.WriteLine("Является ли строка перевёртышем: " + ds.CheckPalindrome(value));
     }
 }
