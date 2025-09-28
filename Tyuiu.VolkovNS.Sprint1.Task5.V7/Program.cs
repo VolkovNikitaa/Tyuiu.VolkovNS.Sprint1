@@ -1,4 +1,4 @@
-﻿using Tyuiu.VolkovNS.Sprint1.Task4.V12.Lib;
+﻿using Tyuiu.VolkovNS.Sprint1.Task5.V7.Lib;
 
 internal class Program
 {
@@ -9,26 +9,25 @@ internal class Program
         Console.Title = "Спринт #1 | Выполнил Волков Н. С. | ПКТб-25-1";
         Console.WriteLine("***************************************************************************");
         Console.WriteLine("* Спринт #1                                                               *");
-        Console.WriteLine("* Тема: Class Math                                                        *");
-        Console.WriteLine("* Задание #4                                                              *");
-        Console.WriteLine("* Вариант #12                                                             *");
+        Console.WriteLine("* Тема: Преобразование типов и класс Convert                              *");
+        Console.WriteLine("* Задание #5                                                              *");
+        Console.WriteLine("* Вариант #7                                                              *");
         Console.WriteLine("* Выполнил: Волков Никита Сергеевич | ПКТб-25-1                           *");
         Console.WriteLine("***************************************************************************");
         Console.WriteLine("* УСЛОВИЕ:                                                                *");
-        Console.WriteLine("* Написать программу, которая запрашивает у пользователя исходные данные, *");
-        Console.WriteLine("* вычисляет результат по формуле и печатает его на экране.                *");
-        Console.WriteLine("*                                                                         *");
+        Console.WriteLine("* Определить h – полное количество часов прошедших от начала суток до того*");
+        Console.WriteLine("* момента (в первой половине дня), когда часовая стрелка повернулась      *");
+        Console.WriteLine("* на f градусов (0<f<360, f – вещественное число).                        *");
         Console.WriteLine("***************************************************************************");
         Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
         Console.WriteLine("***************************************************************************");
-        double x, y;
-        Console.WriteLine("Введите X: ");
-        x = Convert.ToDouble(Console.ReadLine());
-        Console.WriteLine("Введите Y: ");
-        y = Convert.ToDouble(Console.ReadLine());
+        double f, h;
+        Console.WriteLine("Введите F: ");
+        f = Convert.ToDouble(Console.ReadLine());
+        h = ds.AngleToHoursMinutes(f);
         Console.WriteLine("***************************************************************************");
         Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
         Console.WriteLine("***************************************************************************");
-        Console.WriteLine("Ответ равен: " + Math.Round(ds.Calculate(x,y),3));
+        Console.WriteLine("С начала суток прошло " + h + " часов");
     }
 }

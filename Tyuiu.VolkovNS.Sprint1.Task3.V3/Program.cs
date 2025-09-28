@@ -9,9 +9,9 @@ internal class Program
         Console.Title = "Спринт #1 | Выполнил Волков Н. С. | ПКТб-25-1";
         Console.WriteLine("***************************************************************************");
         Console.WriteLine("* Спринт #1                                                               *");
-        Console.WriteLine("* Операторы составного присваивания                                       *");
+        Console.WriteLine("* Тема: Операторы составного присваивания                                 *");
         Console.WriteLine("* Задание #3                                                              *");
-        Console.WriteLine("* Вариант #3                                                             *");
+        Console.WriteLine("* Вариант #3                                                              *");
         Console.WriteLine("* Выполнил: Волков Никита Сергеевич | ПКТб-25-1                           *");
         Console.WriteLine("***************************************************************************");
         Console.WriteLine("* УСЛОВИЕ:                                                                *");
