@@ -6,7 +6,7 @@ namespace Tyuiu.VolkovNS.Sprint1.Task5.V7.Lib
     {
         public int AngleToHoursMinutes(double f)
         {
-            return Convert.ToInt32(f * 12 / 360);
+            return (int)(f * 12 / 360);
         }
     }
 }
