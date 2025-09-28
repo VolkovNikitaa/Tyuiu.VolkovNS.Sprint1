@@ -21,14 +21,14 @@ internal class Program
         Console.WriteLine("***************************************************************************");
         Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
         Console.WriteLine("***************************************************************************");
-        double x, y;
+        int value, valueTwo;
         Console.WriteLine("Введите количество часов: ");
-        x = Convert.ToDouble(Console.ReadLine());
+        value = Console.Read();
         Console.WriteLine("Введите количество минут: ");
-        y = Convert.ToDouble(Console.ReadLine());
+        valueTwo =Console.Read();
         Console.WriteLine("***************************************************************************");
         Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
         Console.WriteLine("***************************************************************************");
-        Console.WriteLine(ds.Calculate(x, y));
+        Console.WriteLine(ds.ConvertHoursMinutesToSeconds(value, valueTwo));
     }
 }

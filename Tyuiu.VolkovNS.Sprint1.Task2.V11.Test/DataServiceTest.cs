@@ -8,8 +8,8 @@ namespace Tyuiu.VolkovNS.Sprint1.Task2.V11.Test
         public void TestMethod1()
         {
             DataService ds = new DataService();
-            double x=14, y= 32;
-            var res = ds.Calculate(x, y);
+            int value=14, valueTwo= 32;
+            var res = ds.ConvertHoursMinutesToSeconds(value, valueTwo);
             Assert.AreEqual(52320, res);
         }
     }

@@ -2,11 +2,12 @@
 
 namespace Tyuiu.VolkovNS.Sprint1.Task2.V11.Lib
 {
-    public class DataService : ISprint1Task1V11
+    public class DataService : ISprint1Task2V11
     {
-        public double Calculate(double x, double y)
+
+        public int ConvertHoursMinutesToSeconds(int value, int valueTwo)
         {
-            return 3600 * x + 60 * y;
+            return 3600 * value + 60 * valueTwo;
         }
     }
 }
