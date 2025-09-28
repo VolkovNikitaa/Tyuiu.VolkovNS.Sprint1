@@ -23,12 +23,12 @@ internal class Program
         Console.WriteLine("***************************************************************************");
         int value, valueTwo;
         Console.WriteLine("Введите количество часов: ");
-        value = Console.Read();
+        value = Convert.ToInt32(Console.ReadLine());
         Console.WriteLine("Введите количество минут: ");
-        valueTwo =Console.Read();
+        valueTwo = Convert.ToInt32(Console.ReadLine());
         Console.WriteLine("***************************************************************************");
         Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
         Console.WriteLine("***************************************************************************");
-        Console.WriteLine("С начала суток прошло" + ds.ConvertHoursMinutesToSeconds(value, valueTwo) + "секунд.");
+        Console.WriteLine("С начала суток прошло " + ds.ConvertHoursMinutesToSeconds(value, valueTwo) + " секунд.");
     }
 }
