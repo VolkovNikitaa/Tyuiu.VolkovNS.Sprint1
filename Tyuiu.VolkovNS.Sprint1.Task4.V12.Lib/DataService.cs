@@ -6,7 +6,7 @@ namespace Tyuiu.VolkovNS.Sprint1.Task4.V12.Lib
     {
         public double Calculate(double x, double y)
         {
-            return Math.Sin(Math.PI)*x/(x+Math.Sqrt(Math.Abs(y)));
+            return Math.Sin(Math.PI*x)/(x+Math.Sqrt(Math.Abs(y)));
         }
     }
 }
