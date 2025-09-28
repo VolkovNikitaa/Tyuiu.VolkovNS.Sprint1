@@ -29,6 +29,6 @@ internal class Program
         Console.WriteLine("***************************************************************************");
         Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
         Console.WriteLine("***************************************************************************");
-        Console.WriteLine(ds.ConvertHoursMinutesToSeconds(value, valueTwo));
+        Console.WriteLine("С начала суток прошло" + ds.ConvertHoursMinutesToSeconds(value, valueTwo) + "секунд.");
     }
 }
